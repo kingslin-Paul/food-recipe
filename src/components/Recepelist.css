@@ -1,0 +1,39 @@
+.recepe-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.container:hover .recepe-img{
+    opacity: 0.4;
+}
+
+.container:hover .text{
+    opacity: 1;
+}
+
+.recepe-name{
+    max-width: 200px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.recepe-list-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.container{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 35%;
+    left:25%;
+    opacity: 0;
+    transition: 0.5s;
+
+}
